@@ -24,7 +24,8 @@ def displayresult(result):
 
 ##INPUT DECISION LIST HERE
 ##
-decisionlist = ['Choice 1','Choice 2','Choice 3','Choice 4','Choice 5','Choice 6','Choice 7','Choice 8']
+##decisionlist = ['Choice 1','Choice 2','Choice 3','Choice 4','Choice 5','Choice 6','Choice 7','Choice 8']
+decisionlist = open("filename.dat").read().splitlines()
 ##
 ##INPUT DECISION LIST ABOVE
 
